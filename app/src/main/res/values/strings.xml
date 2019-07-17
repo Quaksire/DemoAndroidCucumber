@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DemoAndroidCucumber</string>
+
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login">Login</string>
+
+    <string name="login_fail">Fail to login, please try again</string>
+    <string name="login_success">Login success</string>
+</resources>
