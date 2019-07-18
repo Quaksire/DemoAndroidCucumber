@@ -6,7 +6,7 @@ Feature: Login screen
         Scenario: Login Success
             Given A user is at the login screen
             When Insert username correctUsername
-            And Insert password corretPassword1234
+            And Insert password correctPassword1234
             And Press login button
             Then Success message is displayed
 
