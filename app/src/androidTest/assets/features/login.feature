@@ -12,7 +12,7 @@ Feature: Login screen
 
         Scenario Outline: Login fails
             Given A user is at the login screen
-            When Insert usermane <username>
+            When Insert username <username>
             And Insert password <password>
             And Press login button
             Then Error message is displayed
