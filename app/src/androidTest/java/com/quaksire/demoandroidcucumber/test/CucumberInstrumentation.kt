@@ -13,7 +13,7 @@ import cucumber.api.android.CucumberInstrumentationCore
     features = ["features"],
     glue = ["com.quaksire.demoandroidcucumber.test"])
 @SuppressWarnings("unused")
-class Instrumentation : MonitoringInstrumentation() {
+class CucumberInstrumentation : MonitoringInstrumentation() {
 
     private val instrumentationCore = CucumberInstrumentationCore(this)
 

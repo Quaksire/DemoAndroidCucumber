@@ -13,7 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
         testApplicationId "com.quaksire.demoandroidcucumber.test"
-        testInstrumentationRunner "com.quaksire.demoandroidcucumber.test.Instrumentation"
+        testInstrumentationRunner "com.quaksire.demoandroidcucumber.test.CucumberInstrumentation"
     }
     buildTypes {
         release {
